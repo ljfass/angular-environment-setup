@@ -14,6 +14,9 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "@environment": ["./src/environments/environment.ts"]
+    },
     "lib": [
       "es2018",
       "dom"
@@ -23,8 +26,5 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   },
-  "paths": {
-    "@environment": ["./src/environments/environment.ts"]
-  }
   
 }
